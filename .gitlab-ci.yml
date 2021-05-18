@@ -1,0 +1,11 @@
+before_script:
+  - echo "begin"
+
+after_script:
+  - echo "completed!"
+  
+deploy:
+  stage: deploy
+  script:
+    - PKG_NAME='xxx.tar.gz'
+    - echo "📦 packaging"
