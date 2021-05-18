@@ -4,7 +4,7 @@ before_script:
 after_script:
   - echo "completed!"
   
-deploy:
+pages:
   stage: deploy
   script:
     - mkdir public
