@@ -10,6 +10,11 @@ pages:
     - mkdir public
     - cp -r docs/. public
     - echo `ls public`
+    - ssh pda@10.12.6.67 'rm -rf /home/pda/server-deploy/public/docsify'
+    - scp -r public/ pda@10.12.6.67:/home/pda/server-deploy/public/docsify/
+    - echo "deploy ok"
   artifacts:
     paths:
     - public
+  tags:
+    - shell
