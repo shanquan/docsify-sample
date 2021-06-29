@@ -12,7 +12,9 @@
     href="assets/darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme"
     type="text/css"
-  /> -->
+  />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> 
+  -->
   <!-- local assets -->
   <link rel="stylesheet" href="assets/vue.css">
   <link 
@@ -21,19 +23,25 @@
     title="docsify-darklight-theme"
     type="text/css"
   />
+  <link rel="stylesheet" href="assets/gitalk.css">
 </head>
 <body>
   <div id="app"></div>
+  <script src="assets/edit-on-github.js"></script>
   <script>
     // doc: 
     window.$docsify = {
       name: '',
-      repo: '',
-      // loadSidebar: true,
+      repo: 'https://gitee.com/shanquane/docsify-sample.git',
+      loadSidebar: true,
+      subMaxLevel: 2,
       search: {
         paths: 'auto',
         placeholder: 'Search'
-      }
+      },
+      plugins: [
+        EditOnGithubPlugin.create("https://gitee.com/shanquane/docsify-sample/blob/master/docs/", null, "Edit")
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -43,7 +51,11 @@
     type="text/javascript">
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+ -->
   <!-- local -->
   <script src="assets/docsify@4.js"></script>
   <script 
@@ -52,5 +64,18 @@
   </script>
   <script src="assets/search.min.js"></script>
   <script src="assets/copy-code.js"></script>
+  <script src="assets/gitalk.plugin.min.js"></script>
+  <script src="assets/gitalk.min.js"></script>
+  <script>
+    // const gitalk = new Gitalk({
+    //   clientID: '',
+    //   clientSecret: '466f2043899b6e9f70ea29cbbc91dc462a8bc395',
+    //   repo: 'docsify-sample',
+    //   owner: 'shanquan',
+    //   admin: ['shanquan'],
+    //   // facebook-like distraction free mode
+    //   distractionFreeMode: false
+    // })
+  </script>
 </body>
 </html>
