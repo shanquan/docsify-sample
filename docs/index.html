@@ -24,6 +24,12 @@
     type="text/css"
   />
   <link rel="stylesheet" href="assets/gitalk.css">
+  <style>
+    .gt-container .gt-header-textarea{
+      color: var(--textColor);
+      border-color: var(--textColor);
+      background-color: var(--background)!important;}
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -32,7 +38,7 @@
     // doc: 
     window.$docsify = {
       name: '',
-      repo: 'https://gitee.com/shanquane/docsify-sample.git',
+      repo: 'https://github.com/shanquan/docsify-sample.git',
       loadSidebar: true,
       subMaxLevel: 2,
       search: {
@@ -40,8 +46,12 @@
         placeholder: 'Search'
       },
       plugins: [
-        EditOnGithubPlugin.create("https://gitee.com/shanquane/docsify-sample/blob/master/docs/", null, "Edit")
-      ]
+        EditOnGithubPlugin.create("https://github.com/shanquan/docsify-sample/blob/master/docs/", null, "Edit")
+      ],
+      pagination: {
+        previousText: '上一页',
+        nextText: '下一页',
+      }
     }
   </script>
   <!-- Docsify v4 -->
@@ -53,6 +63,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
  -->
@@ -64,18 +75,19 @@
   </script>
   <script src="assets/search.min.js"></script>
   <script src="assets/copy-code.js"></script>
+  <script src="assets/docsify-pagination.min.js"></script>
   <script src="assets/gitalk.plugin.min.js"></script>
   <script src="assets/gitalk.min.js"></script>
   <script>
-    // const gitalk = new Gitalk({
-    //   clientID: '',
-    //   clientSecret: '466f2043899b6e9f70ea29cbbc91dc462a8bc395',
-    //   repo: 'docsify-sample',
-    //   owner: 'shanquan',
-    //   admin: ['shanquan'],
-    //   // facebook-like distraction free mode
-    //   distractionFreeMode: false
-    // })
+    const gitalk = new Gitalk({
+      clientID: '8bcab95be38d6770055a',
+      clientSecret: 'b0d72206fe5a7661154426b3dd9f73eb42592fb1',
+      repo: 'docsify-sample',
+      owner: 'shanquan',
+      admin: ['shanquan'],
+      // facebook-like distraction free mode，notice: the repo should be public
+      distractionFreeMode: false
+    })
   </script>
 </body>
 </html>

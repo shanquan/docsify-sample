@@ -6,12 +6,12 @@
 部署在gitlab-ce, 并实现gitlab-ci.yml部署gitlab pages. 访问地址：`http://10.12.6.67:8929:8930/root/docsify/public/`
 
 ## Todo
-- [ ]sidemenu auto expand
-- [ ]with support for tags
-- [ ]gitTalk for comments
-- [ ]edit and save with git
-- [ ]vs simplenote
+- [x]sidemenu auto expand
+- [x]gitTalk for comments
+- [x]edit and save with git
+- [ ]with support for tags(like hugo or simplenote)
 - [ ]deploy to COS
+- [ ]support wechat public deploy
 
 ## Editors Recommendation
 - [bytemd](https://github.com/bytedance/bytemd)
