@@ -11,7 +11,7 @@ pages:
     # for linux bash
     #- cp -r docs/. public
     # for window powershell
-    - cp docs/* public
+    - cp -r docs/* public
     - ls public
     - echo "deploy ok"
   artifacts:
