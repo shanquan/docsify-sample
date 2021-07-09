@@ -8,8 +8,8 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - cp -r docs/. public
-    - echo `ls public`
+    - cp -r docs/. public/
+    - ls public
     - echo "deploy ok"
   artifacts:
     paths:

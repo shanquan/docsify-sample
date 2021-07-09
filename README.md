@@ -3,7 +3,7 @@
 ## Highlight
 `git clone http://10.12.6.67:8929/root/docsify.git`
 
-部署在gitlab-ce, 并实现gitlab-ci.yml部署gitlab pages. 访问地址：`http://10.12.6.67:8929:8930/root/docsify/public/`
+部署在gitlab-ce, 并实现gitlab-ci.yml部署gitlab pages. 访问地址：`http://10.12.6.67:8930/root/docsify/public/`
 
 ## Todo
 - [x]sidemenu auto expand
