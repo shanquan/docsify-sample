@@ -1,5 +1,4 @@
-# Headline
+# Table Of Contents
 
-> An awesome project.
-
-## Set up
+- [Resources](/zh-cn/Resources)
+- [TODO](/zh-cn/Todo)

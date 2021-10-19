@@ -1,3 +1,4 @@
 <!-- docs/_sidebar.md -->
-* [English](/)
-* [中文](/zh-cn/)
+<!-- * [English](/) -->
+* [资源](/zh-cn/Resources)
+* [TODO](/zh-cn/Todo)
