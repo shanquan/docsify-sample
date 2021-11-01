@@ -28,6 +28,7 @@
 - AJ-Report
 - [JEECG-Boot](http://www.jeecg.com/)
   商业授权: <http://www.jeecg.com/vip>
+- [SingerBoot](https://mp.weixin.qq.com/s/VPxQBMM1sox7CRijGo3R3w)
 
 ### Market
 - [twt社区 | 低代码应用平台（ LCAP ）研究](https://mp.weixin.qq.com/s?__biz=MjM5NTk0MTM1Mw==&mid=2650661280&idx=2&sn=074efc77b219365017904d1059338c64)
