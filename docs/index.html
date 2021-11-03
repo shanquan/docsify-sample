@@ -23,7 +23,7 @@
     title="docsify-darklight-theme"
     type="text/css"
   />
-  <link rel="stylesheet" href="assets/gitalk.css">
+  <link rel="stylesheet" href="assets/mermaid.min.css">
   <style>
     .gt-container .gt-header-textarea{
       color: var(--textColor);
@@ -37,12 +37,15 @@
     <a href="#/zh-cn/">中文</a>
   </nav> -->
   <div id="app"></div>
-  <script src="assets/edit-on-github.js"></script>
+  <!-- <script src="assets/edit-on-github.js"></script> -->
+  <script src="assets/mermaid.min.js"></script>
   <script>
+    var num = 0;
+    mermaid.initialize({ startOnLoad: false });
     // doc: 
     window.$docsify = {
       name: '',
-      repo: 'https://github.com/shanquan/docsify-sample.git',
+      // repo: 'https://github.com/shanquan/docsify-sample.git',
       loadSidebar: true,
       loadNavbar: true,
       coverpage: true,
@@ -52,11 +55,23 @@
         placeholder: 'Search'
       },
       plugins: [
-        EditOnGithubPlugin.create("https://github.com/shanquan/docsify-sample/blob/master/docs/", null, "Edit")
+        // EditOnGithubPlugin.create("https://github.com/shanquan/docsify-sample/blob/master/docs/", null, "Edit")
       ],
       pagination: {
         previousText: '上一页',
         nextText: '下一页',
+      },
+      markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
       }
     }
   </script>
@@ -82,6 +97,7 @@
   <script src="assets/search.min.js"></script>
   <script src="assets/copy-code.js"></script>
   <script src="assets/docsify-pagination.min.js"></script>
+  <!-- <link rel="stylesheet" href="assets/gitalk.css">
   <script src="assets/gitalk.plugin.min.js"></script>
   <script src="assets/gitalk.min.js"></script>
   <script>
@@ -94,6 +110,6 @@
       // facebook-like distraction free mode，notice: the repo should be public
       distractionFreeMode: false
     })
-  </script>
+  </script> -->
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
 
-# Still figuring out
+# Dev Blogs
 
-> Welcome to nowhere
+> mostly frontend stuff
 
-[Github](https://github.com/shanquan/docsify-sample.git)
+<!-- [Github](https://github.com/shanquan/docsify-sample.git) -->
