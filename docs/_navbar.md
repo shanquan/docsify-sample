@@ -3,4 +3,4 @@
 * Translations
 
   * [English](/)
-  * [中文](/zh-cn/)
+  * [中文](/zh-cn/appdev/todo)

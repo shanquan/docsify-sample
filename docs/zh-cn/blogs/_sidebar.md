@@ -1,1 +1,1 @@
-* [前后端分离的设计模式](/zh-cn/blogs/pdaDesign)
+* [前后端分离的设计模式](/zh-cn/blogs/bsDesign)

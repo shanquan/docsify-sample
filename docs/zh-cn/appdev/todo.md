@@ -1,14 +1,14 @@
-## Android统一PDA
-- [ ] 统一工厂、客户选择
-- [ ] 统一上料模块
-- [ ] 使用Vue开发
-
 ## Vue前端/APP模板
 - [ ] flames views及router整理（按照frontend-whole格式）；
 - [ ] flames-pda本地接口调用日志文件上传，异常上报；
 - [ ] flames-pda项目增加截屏插件；
 - [ ] MacAddress插件上传npm及cordova;
 - [ ] 文件夹js（`langs\routers`）自动导入；前端按配置打包不同`routers`及`views`
+
+## Android统一PDA
+- [ ] 统一工厂、客户选择
+- [ ] 统一上料模块
+- [ ] 使用Vue开发
 
 ## 报表中心设计
 - [ ] 产品选型
