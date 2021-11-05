@@ -23,12 +23,16 @@
 - [Viser图表](https://github.com/viserjs/viser)
 
 ## 低代码开发平台（LCAP）
-### SQL——>报表+看板
-~~- JimuReport~~
-- AJ-Report
+### SQL——>报表+看板（产品选型）
+满足以下要求
+1. 开源，支持二次开发
+2. 前端Vue + 后端SprintBoot, 生成的代码前后端分离
+
+国产开源项目：
 - [JEECG-Boot](http://www.jeecg.com/)
   商业授权: <http://www.jeecg.com/vip>
-- [SingerBoot](https://mp.weixin.qq.com/s/VPxQBMM1sox7CRijGo3R3w)
+  ~~- JimuReport（暂不开源）~~
+- [AJ-Report](https://gitee.com/anji-plus/report)
 
 ### Market
 - [twt社区 | 低代码应用平台（ LCAP ）研究](https://mp.weixin.qq.com/s?__biz=MjM5NTk0MTM1Mw==&mid=2650661280&idx=2&sn=074efc77b219365017904d1059338c64)

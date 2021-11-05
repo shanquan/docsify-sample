@@ -30,6 +30,10 @@
 
 https://www.apipost.cn/ based on postman.
 
+RestClient doesn't work in <https://vscode.dev/> yet.
+
+ref: https://code.visualstudio.com/api/extension-guides/web-extensions
+
 ## Android 打印方案优化
 
 PDA web APP开发与打印项目：printHand、printerShare
