@@ -1,9 +1,9 @@
 ## Vue前端/APP模板
-- [ ] flames views及router整理（按照frontend-whole格式）；
-- [ ] flames-pda本地接口调用日志文件上传，异常上报；
-- [ ] flames-pda项目增加截屏插件；
-- [ ] MacAddress插件上传npm及cordova;
-- [ ] 文件夹js（`langs\routers`）自动导入；前端按配置打包不同`routers`及`views`
+- [x] flames views及router整理（按照frontend-whole格式）；——陈流勇
+- [ ] flames-pda本地接口调用日志文件上传，异常上报；——张港港
+- [ ] flames-pda项目增加截屏插件；——张港港
+- [x] MacAddress插件上传npm及cordova;
+- [ ] 文件夹js（`langs\routers`）自动导入；前端按配置打包不同`routers`及`views` ——陈流勇
 
 ## Android统一PDA
 - [ ] 统一工厂、客户选择
@@ -11,7 +11,7 @@
 - [ ] 使用Vue开发
 
 ## 报表中心设计
-- [ ] 产品选型
+- [x] 产品选型: AJ-Report
 - [ ] 代码生成分析
 - [ ] 多系统集成部署
 
