@@ -10,7 +10,7 @@ Browser vendors have recently ruled that `getUserMedia` should only work on `htt
 
 Client-side APIs on mobile and desktop devices are quickly providing the same APIs.  Of course our mobile devices got access to some of these APIs first, but those APIs are slowly making their way to the desktop.  One of those APIs is the getUserMedia API, providing developers access to the user's camera.  Let me show you how to get simple camera access from within your browser!
 
-You may want to see [Image Crop Demo](http://jsfiddle.net/alexk111/rw6q9/)
+You may also want to see [Image Crop Demo](http://jsfiddle.net/alexk111/rw6q9/)
 
 <a href="../../demo/cameraDemo.html" class="demo" target="_blank">View Demo</a>
 
