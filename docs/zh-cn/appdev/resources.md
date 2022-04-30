@@ -33,6 +33,10 @@
   商业授权: <http://www.jeecg.com/vip>
   ~~- JimuReport（暂不开源）~~
 - [AJ-Report](https://gitee.com/anji-plus/report)
+- [Magic API](http://10.12.5.188:20008/se/web)
+- [magic-page-designer](https://gitee.com/ssssssss-team/magic-page-designer)
+- [阿里开源低码平台](https://zhuanlan.zhihu.com/p/501129488?utm_source=com.tencent.wework&utm_medium=social&utm_oi=664942283628089344)
+- [xrender](https://xrender.fun/generator)
 
 ### Market
 - [twt社区 | 低代码应用平台（ LCAP ）研究](https://mp.weixin.qq.com/s?__biz=MjM5NTk0MTM1Mw==&mid=2650661280&idx=2&sn=074efc77b219365017904d1059338c64)
@@ -57,3 +61,54 @@
 - [video etherpad](https://video.etherpad.com/)
 - [Docusaurus](https://docusaurus.io/)
 - gitlab webIDE(deploy to gitlab pages)
+
+## PLM
+- 流程引擎：https://camunda.com/ , https://cawemo.com/
+- 在线PDF： pdf.js 
+http://mozilla.github.io/pdf.js/
+
+- [ ] 文件加解密防泄漏
+
+project/Ganta/BPMN 2.0规范
+https://bpmn.io/
+
+对象存储：
+https://min.io/
+
+Gantt图：
+企业微信收藏
+https://frappe.io/gantt
+http://snapsvg.io/
+
+Flow Editor
+- [GGEditor](https://ggeditor.com/)
+- [X-Flowchart-Vue](https://github.com/OXOYO/X-Flowchart-Vue)
+- [vue-g6-editor](https://github.com/caoyu48/vue-g6-editor)
+
+Flow Editor Demo
+- [X-Flowchart-Vue Online](http://oxoyo.co/X-Flowchart-Vue/)
+- [vue-g6-editor](http://62.234.69.136/)
+- [antV G6流程图在Vue中的使用](https://www.jianshu.com/p/13579c3853bc)
+
+直接打印/静默打印
+- http://www.httpprinter.com/purchase.html
+- https://www.cnblogs.com/acmilan/p/4632406.html
+
+PDF合成与签名
+@since 2022-04-12
+腾讯电子签: https://cloud.tencent.com/product/ess-overview
+https://cloud.tencent.com/document/api/1323/70377#.E7.AC.AC-1-.E6.AC.A1.E5.8F.91.E5.B8.83
+
+- https://github.com/meff34/docsify-to-pdf-converter
+- https://blog.csdn.net/u598975767/article/details/122576505
+- https://github.com/itext/itext7
+- https://blog.csdn.net/weixin_44197039/article/details/108696419
+- https://blog.csdn.net/Will_Pass/article/details/104783577
+
+电签流程更新：
+模板文档（pdf/docx/excel）->html->增加浮动层表单及签名图片（html）-> PDF/图片
+待确认问题：第三方签章认证/企业认证/个人认证
+
+表单设计器（腾讯表单，电子签）
+   - [几个不错的开源formbuilder](https://www.cnblogs.com/rongfengliang/p/12703254.html)
+   - [vue-formbuilder](https://vuejsexamples.com/form-builder-with-vue-js/)
